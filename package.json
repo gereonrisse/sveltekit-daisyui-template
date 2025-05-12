@@ -1,5 +1,5 @@
 {
-	"name": "frontend-svelte",
+	"name": "sveltekit-daisyui-template",
 	"private": true,
 	"version": "0.0.1",
 	"type": "module",
