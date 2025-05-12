@@ -4,6 +4,7 @@
 
 ```sh
 npx degit gereonrisse/sveltekit-daisyui-template <app-name>
+cd <app-name>
 npm install
 cp .env.example .env
 npm run dev
