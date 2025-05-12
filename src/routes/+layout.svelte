@@ -1,7 +1,7 @@
 <script lang="ts">
     import '../app.css';
     import { onMount } from 'svelte';
-    import { removeToast, toasts } from '$lib/stores/toasts';
+    import { removeToast, toasts } from '../stores/toasts';
     import { env } from '$env/static/public';
 
     let { children } = $props();
