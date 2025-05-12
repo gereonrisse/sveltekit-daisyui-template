@@ -2,7 +2,7 @@
     import '../app.css';
     import { onMount } from 'svelte';
     import { removeToast, toasts } from '../stores/toasts';
-    import { env } from '$env/static/public';
+    import { PUBLIC_APP_NAME } from '$env/static/public';
 
     let { children } = $props();
 
@@ -33,7 +33,7 @@
 
 <div class="navbar bg-base-200 shadow-sm">
     <div class="flex-1">
-        <a class="btn btn-ghost text-xl" href="/">{env.PUBLIC_APP_NAME}</a>
+        <a class="btn btn-ghost text-xl" href="/">{PUBLIC_APP_NAME}</a>
     </div>
     <div class="flex-none flex flex-row items-center gap-4">
 
